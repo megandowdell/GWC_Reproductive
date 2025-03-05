@@ -1,0 +1,18 @@
+{
+  "name": "gwc_reproductive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "next dev -p 3000",
+    "backend": "node server.js",
+    "dev": "concurrently \"cd backend && npm run start\" \"cd frontend && npm run dev\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5"
+  }
+}
