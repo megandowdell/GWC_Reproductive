@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "frontend": "next dev -p 3000",
+    "frontend": "cd frontend && npm run dev",
     "backend": "node server.js",
     "dev": "concurrently \"cd backend && npm run start\" \"cd frontend && npm run dev\" "
   },
